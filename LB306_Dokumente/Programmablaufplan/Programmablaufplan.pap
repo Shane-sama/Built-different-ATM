@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="8E5C47DC1BBFE8B5">
+  <PROJECT FORMAT="1.00" NAME="Programmablaufplan" AUTHOR="Elena Tafelski" CREATED="2023.01.24 08:02:41" MODIFIED="2023.01.24 09:29:53">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Built Different ATM" CREATED="2023.01.24 08:03:06" MODIFIED="2023.01.24 09:29:53">
+        <LAYOUT FORMAT="1.00" COLUMNS="5" ROWS="15">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="127">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="121">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="2">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="31">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="23">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="10">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="70">
+                <TEXT><![CDATA[Sie besitzen nicht genug Geld auf Ihrem Konto, um diesen Betrag abzuheben.]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="11">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="72">
+                <TEXT><![CDATA[OK]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Built Different ATM]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="2">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Benutzername, Passwort]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="3">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Benutzername, Passwort, Loggin]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="95">
+                <TEXT><![CDATA[Benutzername und Passwort richtig?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="116">
+                <TEXT><![CDATA[int guthaben]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="6">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="94">
+                <TEXT><![CDATA[Guthaben: guthaben]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="7">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[Eingabe?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="8">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="62">
+                <TEXT><![CDATA[Wählen Sie den Betrag, den Sie abheben wollen.]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="9">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="58">
+                <TEXT><![CDATA[Betrag anklicken]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="10">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="36">
+                <TEXT><![CDATA[Betrag zu hoch?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="11">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="114">
+                <TEXT><![CDATA[guthaben -= x]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="12">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="60">
+                <TEXT><![CDATA[Sie haben betrag Franken abgehoben. Ihr Guthaben beträgt noch guthaben Franken.]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="13">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="63">
+                <TEXT><![CDATA[OK]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="14">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="4">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="97">
+                <TEXT><![CDATA[Falsches Username oder falsches Passwort. Versuchen Sie es wieder.]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="5">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="99">
+                <TEXT><![CDATA[OK]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="7">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="35">
+                <TEXT><![CDATA[Wählen Sie den Betrag, den Sie einzahlen wollen.]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="8">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="38">
+                <TEXT><![CDATA[Betrag anklicken]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="112">
+                <TEXT><![CDATA[guthaben += betrag]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="10">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="41">
+                <TEXT><![CDATA[Sie haben betrag Franken eingezahlt. Ihr Guthaben beträgt guthaben Franken.]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="11">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="52">
+                <TEXT><![CDATA[OK]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="2">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="109">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="5">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="101">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="49">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="54">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="13">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="67">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="113" FROM="112" TO="41" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="95" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="18" FROM="16" TO="62" TEXT="Geld abheben" />
+          <CONNECTION FORMAT="1.00" ID="51" FROM="49" TO="94" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="62" TO="58" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="24" FROM="16" TO="23" TEXT="Ausloggen" />
+          <CONNECTION FORMAT="1.00" ID="33" FROM="31" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="26" FROM="23" TO="31" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="34" FROM="16" TO="35" TEXT="Geld einzahlen" />
+          <CONNECTION FORMAT="1.00" ID="37" FROM="36" TO="114" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="40" FROM="35" TO="38" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="53" FROM="41" TO="52" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="56" FROM="54" TO="49" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="94" TO="16" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="55" FROM="52" TO="54" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="59" FROM="58" TO="36" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="61" FROM="60" TO="63" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="69" FROM="67" TO="54" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="66" FROM="63" TO="67" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="124" FROM="121" TO="127" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="122" FROM="72" TO="121" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="129" FROM="127" TO="62" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="88" FROM="70" TO="72" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="120" FROM="36" TO="70" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="96" FROM="95" TO="116" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="98" FROM="95" TO="97" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="100" FROM="97" TO="99" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="102" FROM="99" TO="101" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="111" FROM="109" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="104" FROM="101" TO="109" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="115" FROM="114" TO="60" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="117" FROM="116" TO="94" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="42" FROM="38" TO="112" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
