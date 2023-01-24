@@ -28,19 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.OKBtn = new System.Windows.Forms.Button();
+            this.eingezahltLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // OKBtn
+            // 
+            this.OKBtn.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.OKBtn.Location = new System.Drawing.Point(331, 294);
+            this.OKBtn.Name = "OKBtn";
+            this.OKBtn.Size = new System.Drawing.Size(94, 52);
+            this.OKBtn.TabIndex = 3;
+            this.OKBtn.Text = "OK";
+            this.OKBtn.UseVisualStyleBackColor = true;
+            // 
+            // eingezahltLabel
+            // 
+            this.eingezahltLabel.AutoSize = true;
+            this.eingezahltLabel.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.eingezahltLabel.Location = new System.Drawing.Point(193, 107);
+            this.eingezahltLabel.Name = "eingezahltLabel";
+            this.eingezahltLabel.Size = new System.Drawing.Size(389, 99);
+            this.eingezahltLabel.TabIndex = 2;
+            this.eingezahltLabel.Text = "Sie haben x Franken \r\neingezahlt. Ihr Guthaben \r\nbeträgt noch y Franken.";
             // 
             // PopUpEinzahlen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
+            this.Controls.Add(this.OKBtn);
+            this.Controls.Add(this.eingezahltLabel);
             this.Name = "PopUpEinzahlen";
             this.Text = "PopUpEinzahlen";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private Button OKBtn;
+        private Label eingezahltLabel;
     }
 }

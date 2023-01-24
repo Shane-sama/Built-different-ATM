@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {}
+    "C:\\Users\\andre\\OneDrive - BBBaden\\Dokumente\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {
+    "C:\\Users\\andre\\OneDrive - BBBaden\\Dokumente\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive - BBBaden\\Dokumente\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
         "projectName": "Built different ATM",
-        "projectPath": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
-        "packagesPath": "C:\\Users\\BBB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\obj\\",
+        "projectPath": "C:\\Users\\andre\\OneDrive - BBBaden\\Dokumente\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive - BBBaden\\Dokumente\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BBB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,6 +23,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
           "https://www.myget.org/F/discord-net/api/v3/index.json": {}
         },
         "frameworks": {
