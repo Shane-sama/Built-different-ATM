@@ -1,8 +1,8 @@
 namespace Built_different_ATM
 {
-    public partial class Form1 : Form
+    public partial class Hauptseite : Form
     {
-        public Form1()
+        public Hauptseite()
         {
             InitializeComponent();
         }
