@@ -44,18 +44,20 @@
             // 
             // OKBtn
             // 
+            this.OKBtn.BackColor = System.Drawing.Color.GhostWhite;
             this.OKBtn.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.OKBtn.Location = new System.Drawing.Point(327, 273);
             this.OKBtn.Name = "OKBtn";
             this.OKBtn.Size = new System.Drawing.Size(94, 52);
             this.OKBtn.TabIndex = 1;
             this.OKBtn.Text = "OK";
-            this.OKBtn.UseVisualStyleBackColor = true;
+            this.OKBtn.UseVisualStyleBackColor = false;
             // 
             // PopUpAbheben
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(782, 453);
             this.Controls.Add(this.OKBtn);
             this.Controls.Add(this.abgehobenLabel);

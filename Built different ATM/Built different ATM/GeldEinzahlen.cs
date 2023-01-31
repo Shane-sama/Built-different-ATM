@@ -16,5 +16,10 @@ namespace Built_different_ATM
         {
             InitializeComponent();
         }
+
+        private void GeldEinzahlen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

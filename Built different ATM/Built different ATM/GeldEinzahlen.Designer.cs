@@ -148,6 +148,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "GeldEinzahlen";
             this.Text = "GeldEinzahlen";
+            this.Load += new System.EventHandler(this.GeldEinzahlen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
