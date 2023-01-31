@@ -12,9 +12,11 @@ namespace Built_different_ATM
 {
     public partial class GeldAbheben : Form
     {
+        public static GeldAbheben instance;
         public GeldAbheben()
         {
             InitializeComponent();
+            instance = this;
         }
     }
 }

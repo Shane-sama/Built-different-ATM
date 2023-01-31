@@ -12,14 +12,23 @@ namespace Built_different_ATM
 {
     public partial class Login : Form
     {
+        public static Login instance;
         public Login()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form H1 = new Hauptseite();
+            H1.Show();
+            this.Close();
         }
     }
 }

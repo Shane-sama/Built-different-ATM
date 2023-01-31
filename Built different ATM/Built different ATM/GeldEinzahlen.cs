@@ -12,9 +12,11 @@ namespace Built_different_ATM
 {
     public partial class GeldEinzahlen : Form
     {
+        public static GeldEinzahlen instance;
         public GeldEinzahlen()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void GeldEinzahlen_Load(object sender, EventArgs e)
