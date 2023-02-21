@@ -48,11 +48,6 @@ namespace Built_different_ATM
 
                 }
             }
-
-
-
-
-
             try
             {
                 int Count = 0;
