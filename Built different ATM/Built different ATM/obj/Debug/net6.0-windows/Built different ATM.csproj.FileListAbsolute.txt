@@ -23,3 +23,29 @@ C:\Users\Nathan\Documents\Schule\GitHub\Built-different-ATM\Built different ATM\
 C:\Users\Nathan\Documents\Schule\GitHub\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.pdb
 C:\Users\Nathan\Documents\Schule\GitHub\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.genruntimeconfig.cache
 C:\Users\Nathan\Documents\Schule\GitHub\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\ref\Built different ATM.dll
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\bin\Debug\net6.0-windows\Built different ATM.exe
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\bin\Debug\net6.0-windows\Built different ATM.deps.json
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\bin\Debug\net6.0-windows\Built different ATM.runtimeconfig.json
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\bin\Debug\net6.0-windows\Built different ATM.dll
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\bin\Debug\net6.0-windows\Built different ATM.pdb
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.csproj.AssemblyReference.cache
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.Hauptseite.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.GeldAbheben.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.GeldEinzahlen.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.Login.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.PopUpAbheben.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.PopUpAbhebenFail.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.PopUpEinzahlen.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.PopUpLoginFail.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.Properties.Resources.resources
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.csproj.GenerateResource.cache
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.AssemblyInfoInputs.cache
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.AssemblyInfo.cs
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.csproj.CoreCompileInputs.cache
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.dll
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\refint\Built different ATM.dll
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.pdb
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built different ATM.genruntimeconfig.cache
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\ref\Built different ATM.dll
+C:\Users\shane\OneDrive\Desktop\Schule\BBB\2. Jahr\Modul 306\LB-306\Built-different-ATM\Built different ATM\Built different ATM\obj\Debug\net6.0-windows\Built_different_ATM.AktivAmStart.resources

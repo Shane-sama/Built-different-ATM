@@ -12,11 +12,23 @@ namespace Built_different_ATM
 {
     public partial class GeldAbheben : Form
     {
-        public static GeldAbheben instance;
         public GeldAbheben()
         {
             InitializeComponent();
-            instance = this;
+            Benutzer.Text = AktivAmStart.Benutzername;
+            Guthaben.Text = Convert.ToString(AktivAmStart.Geldbetrag);
+        }
+
+        private void GeldAbheben_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Zurück_Click(object sender, EventArgs e)
+        {
+            var Hauptseite = new Hauptseite();
+            Hauptseite.Show();
+            this.Close();
         }
     }
 }

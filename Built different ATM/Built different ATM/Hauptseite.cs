@@ -2,35 +2,34 @@ namespace Built_different_ATM
 {
     public partial class Hauptseite : Form
     {
-
-        public static Hauptseite instance;
-        public Label GuthabenLable;
-        public Label BenutzerLable;
         public Hauptseite()
         {
             InitializeComponent();
-            instance = this;
-            GuthabenLable = Guthaben;
-            BenutzerLable = Benutzer;
+            Benutzer.Text = AktivAmStart.Benutzername;
+            Guthaben.Text = Convert.ToString(AktivAmStart.Geldbetrag);
         }
         
         private void ausloggenBtn_Click(object sender, EventArgs e)
         {
-            Form L1 = new Login();
-            L1.Show();
+            var Login = new Login();
+            Login.Show();
             this.Close();
         }
 
 
         private void Geldabheben_Click(object sender, EventArgs e)
         {
-
+            var Abheben = new GeldAbheben();
+            Abheben.Show();
+            this.Close();
         }
 
 
         private void Geldeinzahlen_Click(object sender, EventArgs e)
         {
-
+            var Einzahlen = new GeldEinzahlen();
+            Einzahlen.Show();
+            this.Close();
         }
 
 

@@ -12,16 +12,23 @@ namespace Built_different_ATM
 {
     public partial class GeldEinzahlen : Form
     {
-        public static GeldEinzahlen instance;
         public GeldEinzahlen()
         {
             InitializeComponent();
-            instance = this;
+            Benutzer.Text = AktivAmStart.Benutzername;
+            Guthaben.Text = Convert.ToString(AktivAmStart.Geldbetrag);
         }
 
         private void GeldEinzahlen_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Zurück_Click(object sender, EventArgs e)
+        {
+            var Hauptseite = new Hauptseite();
+            Hauptseite.Show();
+            this.Close();
         }
     }
 }
