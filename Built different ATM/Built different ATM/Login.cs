@@ -87,6 +87,13 @@ namespace Built_different_ATM
         {
 
         }
+
+        private void Registrieren_Click(object sender, EventArgs e)
+        {
+            var Registration = new Registrieren();
+            Registration.Show();
+            this.Close();
+        }
     }
 }
 

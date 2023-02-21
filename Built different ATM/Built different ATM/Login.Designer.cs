@@ -33,6 +33,7 @@
             this.passwortLabel = new System.Windows.Forms.Label();
             this.passwortTextBox = new System.Windows.Forms.TextBox();
             this.benutzernameTextBox = new System.Windows.Forms.TextBox();
+            this.Registrieren = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // einloggenBtn
@@ -75,6 +76,7 @@
             this.passwortTextBox.Location = new System.Drawing.Point(355, 306);
             this.passwortTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.passwortTextBox.Name = "passwortTextBox";
+            this.passwortTextBox.PasswordChar = '*';
             this.passwortTextBox.Size = new System.Drawing.Size(284, 31);
             this.passwortTextBox.TabIndex = 37;
             this.passwortTextBox.TextChanged += new System.EventHandler(this.passwortTextBox_TextChanged);
@@ -88,12 +90,23 @@
             this.benutzernameTextBox.TabIndex = 38;
             this.benutzernameTextBox.TextChanged += new System.EventHandler(this.benutzernameTextBox_TextChanged);
             // 
+            // Registrieren
+            // 
+            this.Registrieren.Location = new System.Drawing.Point(415, 512);
+            this.Registrieren.Name = "Registrieren";
+            this.Registrieren.Size = new System.Drawing.Size(156, 42);
+            this.Registrieren.TabIndex = 39;
+            this.Registrieren.Text = "Registrieren";
+            this.Registrieren.UseVisualStyleBackColor = true;
+            this.Registrieren.Click += new System.EventHandler(this.Registrieren_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(978, 566);
+            this.Controls.Add(this.Registrieren);
             this.Controls.Add(this.benutzernameTextBox);
             this.Controls.Add(this.passwortTextBox);
             this.Controls.Add(this.passwortLabel);
@@ -114,5 +127,6 @@
         private Label passwortLabel;
         private TextBox passwortTextBox;
         private TextBox benutzernameTextBox;
+        private Button Registrieren;
     }
 }
