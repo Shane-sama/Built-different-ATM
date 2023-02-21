@@ -19,12 +19,6 @@ namespace Built_different_ATM
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void ausloggenBtn_Click(object sender, EventArgs e)
-        {
-
             string inPath = @"..\..\..\Accounts.csv";
             string text = File.ReadAllText(inPath);
 
@@ -49,28 +43,49 @@ namespace Built_different_ATM
                 }
             }
 
+            bool Benutzervorhanden = false;
+
             for (int i = 0; i < Nutzername.Length; i++)
             {
                 if (Nutzername[i] == benutzernameTextBox.Text)
                 {
-
+                    Benutzervorhanden = true;
+                    var RegistrationFail = new RegistrationsFail();
+                    RegistrationFail.Show();
+                    this.Close();
                 }
-                else if (passwortTextBox.Text == passwortBestätigungTextBox.Text)
+            }
+            
+            if(Benutzervorhanden == false)
+            {
+                if (passwortTextBox.Text == passwortBestätigungTextBox.Text)
                 {
                     string outPath = @"..\..\..\Accounts.csv";
                     string outText = "";
-                    for (int a = 0; a < Nutzername.Length + 1; a++)
+                    for (int a = 0; a < Nutzername.Length; a++)
                     {
                         outText = outText + Nutzername[a] + "," + Passwort[a] + "," + Betrag[a] + @"
 ";
                     }
+                    outText = outText + benutzernameTextBox.Text + "," + passwortBestätigungTextBox.Text + "," + 0 + @"
+";
                     File.WriteAllText(outPath, outText);
+                    var Login = new Login();
+                    Login.Show();
+                    this.Close();
                 }
                 else
                 {
-                    
+                    var RegistrationFail = new RegistrationsFail();
+                    RegistrationFail.Show();
+                    this.Close();
                 }
             }
+        }
+
+        private void ausloggenBtn_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void passwortBestätigungTextBox_TextChanged(object sender, EventArgs e)
