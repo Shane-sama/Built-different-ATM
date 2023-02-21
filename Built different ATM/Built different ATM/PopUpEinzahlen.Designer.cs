@@ -37,7 +37,7 @@
             this.OKBtn.BackColor = System.Drawing.Color.GhostWhite;
             this.OKBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.OKBtn.Location = new System.Drawing.Point(414, 368);
-            this.OKBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OKBtn.Margin = new System.Windows.Forms.Padding(4);
             this.OKBtn.Name = "OKBtn";
             this.OKBtn.Size = new System.Drawing.Size(118, 65);
             this.OKBtn.TabIndex = 3;
@@ -52,9 +52,9 @@
             this.eingezahltLabel.Location = new System.Drawing.Point(241, 134);
             this.eingezahltLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.eingezahltLabel.Name = "eingezahltLabel";
-            this.eingezahltLabel.Size = new System.Drawing.Size(406, 114);
+            this.eingezahltLabel.Size = new System.Drawing.Size(422, 38);
             this.eingezahltLabel.TabIndex = 2;
-            this.eingezahltLabel.Text = "Sie haben x Franken \r\neingezahlt. Ihr Guthaben \r\nbeträgt noch y Franken.";
+            this.eingezahltLabel.Text = "Ihr Geld wurde eingezahlt.";
             // 
             // PopUpEinzahlen
             // 
@@ -64,7 +64,7 @@
             this.ClientSize = new System.Drawing.Size(978, 566);
             this.Controls.Add(this.OKBtn);
             this.Controls.Add(this.eingezahltLabel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PopUpEinzahlen";
             this.Text = "PopUpEinzahlen";
             this.ResumeLayout(false);

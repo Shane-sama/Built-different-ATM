@@ -30,5 +30,107 @@ namespace Built_different_ATM
             Hauptseite.Show();
             this.Close();
         }
+
+        private void btn10CHF_Click(object sender, EventArgs e)
+        {
+            if (AktivAmStart.Geldbetrag >= 10)
+            {
+                AktivAmStart.Geldbetrag = AktivAmStart.Geldbetrag - 10;
+                var Bestätigung = new PopUpAbheben();
+                Bestätigung.Show();
+                this.Close();
+            }
+            else
+            {
+                var ErrorAbheben = new PopUpAbhebenFail();
+                ErrorAbheben.Show();
+                this.Close();
+            }
+        }
+
+        private void btn20CHF_Click(object sender, EventArgs e)
+        {
+            if (AktivAmStart.Geldbetrag >= 20)
+            {
+                AktivAmStart.Geldbetrag = AktivAmStart.Geldbetrag - 20;
+                var Bestätigung = new PopUpAbheben();
+                Bestätigung.Show();
+                this.Close();
+            }
+            else
+            {
+                var ErrorAbheben = new PopUpAbhebenFail();
+                ErrorAbheben.Show();
+                this.Close();
+            }
+        }
+
+        private void btn50CHF_Click(object sender, EventArgs e)
+        {
+            if (AktivAmStart.Geldbetrag >= 50)
+            {
+                AktivAmStart.Geldbetrag = AktivAmStart.Geldbetrag - 50;
+                var Bestätigung = new PopUpAbheben();
+                Bestätigung.Show();
+                this.Close();
+            }
+            else
+            {
+                var ErrorAbheben = new PopUpAbhebenFail();
+                ErrorAbheben.Show();
+                this.Close();
+            }
+        }
+
+        private void btn100CHF_Click(object sender, EventArgs e)
+        {
+            if (AktivAmStart.Geldbetrag >= 100)
+            {
+                AktivAmStart.Geldbetrag = AktivAmStart.Geldbetrag - 100;
+                var Bestätigung = new PopUpAbheben();
+                Bestätigung.Show();
+                this.Close();
+            }
+            else
+            {
+                var ErrorAbheben = new PopUpAbhebenFail();
+                ErrorAbheben.Show();
+                this.Close();
+            }
+        }
+
+        private void btn200CHF_Click(object sender, EventArgs e)
+        {
+            if (AktivAmStart.Geldbetrag >= 200)
+            {
+                AktivAmStart.Geldbetrag = AktivAmStart.Geldbetrag - 200;
+                var Bestätigung = new PopUpAbheben();
+                Bestätigung.Show();
+                this.Close();
+            }
+            else
+            {
+                var ErrorAbheben = new PopUpAbhebenFail();
+                ErrorAbheben.Show();
+                this.Close();
+            }
+        }
+
+        private void btn500CHF_Click(object sender, EventArgs e)
+        {
+            if (AktivAmStart.Geldbetrag >= 500)
+            {
+                AktivAmStart.Geldbetrag = AktivAmStart.Geldbetrag - 500;
+                var Bestätigung = new PopUpAbheben();
+                Bestätigung.Show();
+                this.Close();
+            }
+            else
+            {
+                var ErrorAbheben = new PopUpAbhebenFail();
+                ErrorAbheben.Show();
+                this.Close();
+            }
+        }
     }
 }

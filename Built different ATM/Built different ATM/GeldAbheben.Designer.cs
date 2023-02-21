@@ -53,6 +53,7 @@
             this.btn500CHF.TabIndex = 26;
             this.btn500CHF.Text = "500 CHF";
             this.btn500CHF.UseVisualStyleBackColor = false;
+            this.btn500CHF.Click += new System.EventHandler(this.btn500CHF_Click);
             // 
             // btn200CHF
             // 
@@ -65,6 +66,7 @@
             this.btn200CHF.TabIndex = 25;
             this.btn200CHF.Text = "200 CHF";
             this.btn200CHF.UseVisualStyleBackColor = false;
+            this.btn200CHF.Click += new System.EventHandler(this.btn200CHF_Click);
             // 
             // btn100CHF
             // 
@@ -77,6 +79,7 @@
             this.btn100CHF.TabIndex = 24;
             this.btn100CHF.Text = "100 CHF";
             this.btn100CHF.UseVisualStyleBackColor = false;
+            this.btn100CHF.Click += new System.EventHandler(this.btn100CHF_Click);
             // 
             // btn50CHF
             // 
@@ -89,6 +92,7 @@
             this.btn50CHF.TabIndex = 23;
             this.btn50CHF.Text = "50 CHF";
             this.btn50CHF.UseVisualStyleBackColor = false;
+            this.btn50CHF.Click += new System.EventHandler(this.btn50CHF_Click);
             // 
             // btn20CHF
             // 
@@ -101,6 +105,7 @@
             this.btn20CHF.TabIndex = 22;
             this.btn20CHF.Text = "20 CHF";
             this.btn20CHF.UseVisualStyleBackColor = false;
+            this.btn20CHF.Click += new System.EventHandler(this.btn20CHF_Click);
             // 
             // btn10CHF
             // 
@@ -113,6 +118,7 @@
             this.btn10CHF.TabIndex = 21;
             this.btn10CHF.Text = "10 CHF";
             this.btn10CHF.UseVisualStyleBackColor = false;
+            this.btn10CHF.Click += new System.EventHandler(this.btn10CHF_Click);
             // 
             // lblGeldabhebenText
             // 

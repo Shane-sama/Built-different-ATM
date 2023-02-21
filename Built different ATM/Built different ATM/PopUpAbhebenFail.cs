@@ -16,5 +16,12 @@ namespace Built_different_ATM
         {
             InitializeComponent();
         }
+
+        private void OKBtn_Click(object sender, EventArgs e)
+        {
+            var Hauptseite = new Hauptseite();
+            Hauptseite.Show();
+            this.Close();   
+        }
     }
 }
