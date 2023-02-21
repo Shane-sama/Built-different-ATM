@@ -16,5 +16,11 @@ namespace Built_different_ATM
         {
             InitializeComponent();
         }
+
+        private void benutzernameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
