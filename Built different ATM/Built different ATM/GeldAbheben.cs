@@ -16,7 +16,7 @@ namespace Built_different_ATM
         {
             InitializeComponent();
             Benutzer.Text = AktivAmStart.Benutzername;
-            Guthaben.Text = Convert.ToString(AktivAmStart.Geldbetrag);
+            Guthaben.Text = Convert.ToString(AktivAmStart.Geldbetrag) + " CHF";
         }
 
         private void GeldAbheben_Load(object sender, EventArgs e)

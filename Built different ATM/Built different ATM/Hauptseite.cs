@@ -6,7 +6,7 @@ namespace Built_different_ATM
         {
             InitializeComponent();
             Benutzer.Text = AktivAmStart.Benutzername;
-            Guthaben.Text = Convert.ToString(AktivAmStart.Geldbetrag);
+            Guthaben.Text = Convert.ToString(AktivAmStart.Geldbetrag) + " CHF";
         }
         
         private void ausloggenBtn_Click(object sender, EventArgs e)

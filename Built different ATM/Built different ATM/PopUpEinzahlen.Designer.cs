@@ -35,32 +35,36 @@
             // OKBtn
             // 
             this.OKBtn.BackColor = System.Drawing.Color.GhostWhite;
-            this.OKBtn.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.OKBtn.Location = new System.Drawing.Point(331, 294);
+            this.OKBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.OKBtn.Location = new System.Drawing.Point(414, 368);
+            this.OKBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.OKBtn.Name = "OKBtn";
-            this.OKBtn.Size = new System.Drawing.Size(94, 52);
+            this.OKBtn.Size = new System.Drawing.Size(118, 65);
             this.OKBtn.TabIndex = 3;
             this.OKBtn.Text = "OK";
             this.OKBtn.UseVisualStyleBackColor = false;
+            this.OKBtn.Click += new System.EventHandler(this.OKBtn_Click);
             // 
             // eingezahltLabel
             // 
             this.eingezahltLabel.AutoSize = true;
-            this.eingezahltLabel.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.eingezahltLabel.Location = new System.Drawing.Point(193, 107);
+            this.eingezahltLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.eingezahltLabel.Location = new System.Drawing.Point(241, 134);
+            this.eingezahltLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.eingezahltLabel.Name = "eingezahltLabel";
-            this.eingezahltLabel.Size = new System.Drawing.Size(389, 99);
+            this.eingezahltLabel.Size = new System.Drawing.Size(406, 114);
             this.eingezahltLabel.TabIndex = 2;
             this.eingezahltLabel.Text = "Sie haben x Franken \r\neingezahlt. Ihr Guthaben \r\nbeträgt noch y Franken.";
             // 
             // PopUpEinzahlen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(782, 453);
+            this.ClientSize = new System.Drawing.Size(978, 566);
             this.Controls.Add(this.OKBtn);
             this.Controls.Add(this.eingezahltLabel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PopUpEinzahlen";
             this.Text = "PopUpEinzahlen";
             this.ResumeLayout(false);
