@@ -67,8 +67,7 @@ namespace Built_different_ATM
                         outText = outText + Nutzername[a] + "," + Passwort[a] + "," + Betrag[a] + @"
 ";
                     }
-                    outText = outText + benutzernameTextBox.Text + "," + passwortBestätigungTextBox.Text + "," + 0 + @"
-";
+                    outText = outText + benutzernameTextBox.Text + "," + passwortBestätigungTextBox.Text + "," + 0;
                     File.WriteAllText(outPath, outText);
                     var Login = new Login();
                     Login.Show();

@@ -44,11 +44,14 @@ namespace Built_different_ATM
             }
             string outPath = @"..\..\..\Accounts.csv";
             string outText = "";
-            for(int i = 0; i < Nutzername.Length; i++)
+            int NutzernameCount = 0;
+            for(int i = 0; i < Nutzername.Length - 1; i++)
             {
                 outText = outText + Nutzername[i] + "," + Passwort[i] + "," + Betrag[i] + @"
 ";
+                NutzernameCount++;
             }
+            outText = outText + Nutzername[NutzernameCount] + "," + Passwort[NutzernameCount] + "," + Betrag[NutzernameCount];
             File.WriteAllText(outPath, outText);
 
             var Login = new Login();

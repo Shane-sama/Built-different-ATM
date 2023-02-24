@@ -94,6 +94,11 @@ namespace Built_different_ATM
             Registration.Show();
             this.Close();
         }
+
+        private void Schliessen_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
     }
 }
 

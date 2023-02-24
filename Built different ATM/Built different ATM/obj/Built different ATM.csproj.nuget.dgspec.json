@@ -1,35 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nathan\\Documents\\Schule\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {}
+    "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nathan\\Documents\\Schule\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {
+    "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nathan\\Documents\\Schule\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
+        "projectUniqueName": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
         "projectName": "Built different ATM",
-        "projectPath": "C:\\Users\\Nathan\\Documents\\Schule\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
-        "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nathan\\Documents\\Schule\\GitHub\\Built-different-ATM\\Built different ATM\\Built different ATM\\obj\\",
+        "projectPath": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
+        "packagesPath": "C:\\Users\\BBB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\BBB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -65,7 +59,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
