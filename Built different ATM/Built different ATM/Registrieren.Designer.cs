@@ -39,29 +39,26 @@
             // 
             // benutzernameTextBox
             // 
-            this.benutzernameTextBox.Location = new System.Drawing.Point(282, 80);
-            this.benutzernameTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.benutzernameTextBox.Location = new System.Drawing.Point(226, 64);
             this.benutzernameTextBox.Name = "benutzernameTextBox";
-            this.benutzernameTextBox.Size = new System.Drawing.Size(284, 31);
+            this.benutzernameTextBox.Size = new System.Drawing.Size(228, 27);
             this.benutzernameTextBox.TabIndex = 42;
             // 
             // passwortTextBox
             // 
-            this.passwortTextBox.Location = new System.Drawing.Point(282, 224);
-            this.passwortTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.passwortTextBox.Location = new System.Drawing.Point(226, 179);
             this.passwortTextBox.Name = "passwortTextBox";
             this.passwortTextBox.PasswordChar = '*';
-            this.passwortTextBox.Size = new System.Drawing.Size(284, 31);
+            this.passwortTextBox.Size = new System.Drawing.Size(228, 27);
             this.passwortTextBox.TabIndex = 41;
             // 
             // passwortLabel
             // 
             this.passwortLabel.AutoSize = true;
             this.passwortLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.passwortLabel.Location = new System.Drawing.Point(329, 149);
-            this.passwortLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.passwortLabel.Location = new System.Drawing.Point(263, 119);
             this.passwortLabel.Name = "passwortLabel";
-            this.passwortLabel.Size = new System.Drawing.Size(161, 38);
+            this.passwortLabel.Size = new System.Drawing.Size(138, 32);
             this.passwortLabel.TabIndex = 40;
             this.passwortLabel.Text = "Passwort";
             // 
@@ -69,20 +66,18 @@
             // 
             this.benutzernameLabel.AutoSize = true;
             this.benutzernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.benutzernameLabel.Location = new System.Drawing.Point(288, 9);
-            this.benutzernameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.benutzernameLabel.Location = new System.Drawing.Point(230, 7);
             this.benutzernameLabel.Name = "benutzernameLabel";
-            this.benutzernameLabel.Size = new System.Drawing.Size(241, 38);
+            this.benutzernameLabel.Size = new System.Drawing.Size(211, 32);
             this.benutzernameLabel.TabIndex = 39;
             this.benutzernameLabel.Text = "Benutzername";
             // 
             // passwortBestätigungTextBox
             // 
-            this.passwortBestätigungTextBox.Location = new System.Drawing.Point(282, 368);
-            this.passwortBestätigungTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.passwortBestätigungTextBox.Location = new System.Drawing.Point(226, 294);
             this.passwortBestätigungTextBox.Name = "passwortBestätigungTextBox";
             this.passwortBestätigungTextBox.PasswordChar = '*';
-            this.passwortBestätigungTextBox.Size = new System.Drawing.Size(284, 31);
+            this.passwortBestätigungTextBox.Size = new System.Drawing.Size(228, 27);
             this.passwortBestätigungTextBox.TabIndex = 44;
             this.passwortBestätigungTextBox.TextChanged += new System.EventHandler(this.passwortBestätigungTextBox_TextChanged);
             // 
@@ -90,18 +85,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(264, 295);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(211, 236);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(331, 38);
+            this.label1.Size = new System.Drawing.Size(289, 32);
             this.label1.TabIndex = 43;
             this.label1.Text = "Passwort bestätigen";
             // 
             // Bestätigen
             // 
-            this.Bestätigen.Location = new System.Drawing.Point(329, 451);
+            this.Bestätigen.Location = new System.Drawing.Point(263, 361);
+            this.Bestätigen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Bestätigen.Name = "Bestätigen";
-            this.Bestätigen.Size = new System.Drawing.Size(200, 34);
+            this.Bestätigen.Size = new System.Drawing.Size(160, 27);
             this.Bestätigen.TabIndex = 45;
             this.Bestätigen.Text = "Bestätigen";
             this.Bestätigen.UseVisualStyleBackColor = true;
@@ -109,9 +104,9 @@
             // 
             // Registrieren
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(845, 531);
+            this.ClientSize = new System.Drawing.Size(676, 425);
             this.Controls.Add(this.Bestätigen);
             this.Controls.Add(this.passwortBestätigungTextBox);
             this.Controls.Add(this.label1);
@@ -119,8 +114,10 @@
             this.Controls.Add(this.passwortTextBox);
             this.Controls.Add(this.passwortLabel);
             this.Controls.Add(this.benutzernameLabel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Registrieren";
             this.Text = "Registrieren";
+            this.Load += new System.EventHandler(this.Registrieren_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -55,23 +55,40 @@ namespace Built_different_ATM
                     this.Close();
                 }
             }
+
+            if (benutzernameTextBox.Text == "")
+            {
+                Benutzervorhanden = true;
+                var RegistrationFail = new RegistrationsFail();
+                RegistrationFail.Show();
+                this.Close();
+            }
             
             if(Benutzervorhanden == false)
             {
                 if (passwortTextBox.Text == passwortBestätigungTextBox.Text)
                 {
-                    string outPath = @"..\..\..\Accounts.csv";
-                    string outText = "";
-                    for (int a = 0; a < Nutzername.Length; a++)
+                    if (passwortTextBox.Text == "")
                     {
-                        outText = outText + Nutzername[a] + "," + Passwort[a] + "," + Betrag[a] + @"
-";
+                        var RegistrationFail = new RegistrationsFail();
+                        RegistrationFail.Show();
+                        this.Close();
                     }
-                    outText = outText + benutzernameTextBox.Text + "," + passwortBestätigungTextBox.Text + "," + 0;
-                    File.WriteAllText(outPath, outText);
-                    var Login = new Login();
-                    Login.Show();
-                    this.Close();
+                    else
+                    {
+                        string outPath = @"..\..\..\Accounts.csv";
+                        string outText = "";
+                        for (int a = 0; a < Nutzername.Length; a++)
+                        {
+                            outText = outText + Nutzername[a] + "," + Passwort[a] + "," + Betrag[a] + @"
+";
+                        }
+                        outText = outText + benutzernameTextBox.Text + "," + passwortBestätigungTextBox.Text + "," + 0;
+                        File.WriteAllText(outPath, outText);
+                        var Login = new Login();
+                        Login.Show();
+                        this.Close();
+                    }
                 }
                 else
                 {
@@ -88,6 +105,11 @@ namespace Built_different_ATM
         }
 
         private void passwortBestätigungTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Registrieren_Load(object sender, EventArgs e)
         {
 
         }
