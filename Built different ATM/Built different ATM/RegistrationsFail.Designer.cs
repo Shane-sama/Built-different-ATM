@@ -36,21 +36,22 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(259, 144);
+            this.label1.Location = new System.Drawing.Point(370, 240);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(352, 78);
+            this.label1.Size = new System.Drawing.Size(514, 114);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Benutzername schon verwendet\r\noder falsches Passwort\r\nVersuchen sie es nocheinmal" +
-    ".";
+            this.label1.Text = "Benutzername schon verwendet\r\noder falsches Passwort.\r\nVersuchen sie es noch einm" +
+    "al.";
             // 
             // OKBtn
             // 
             this.OKBtn.BackColor = System.Drawing.Color.GhostWhite;
             this.OKBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.OKBtn.Location = new System.Drawing.Point(364, 267);
-            this.OKBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.OKBtn.Location = new System.Drawing.Point(520, 445);
+            this.OKBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OKBtn.Name = "OKBtn";
-            this.OKBtn.Size = new System.Drawing.Size(83, 39);
+            this.OKBtn.Size = new System.Drawing.Size(119, 65);
             this.OKBtn.TabIndex = 4;
             this.OKBtn.Text = "OK";
             this.OKBtn.UseVisualStyleBackColor = false;
@@ -58,11 +59,12 @@
             // 
             // RegistrationsFail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1143, 750);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.OKBtn);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "RegistrationsFail";
             this.Text = "RegistrationsFail";
             this.ResumeLayout(false);

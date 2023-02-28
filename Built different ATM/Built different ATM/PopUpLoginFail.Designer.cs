@@ -52,9 +52,9 @@
             this.label1.Location = new System.Drawing.Point(246, 101);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(412, 114);
+            this.label1.Size = new System.Drawing.Size(408, 114);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Falscher Username \r\noder falsches Passwort. \r\nVersuchen Sie es wieder.";
+            this.label1.Text = "Falscher Username \r\noder falsches Passwort. \r\nVersuchen Sie es erneut.";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // PopUpLoginFail
