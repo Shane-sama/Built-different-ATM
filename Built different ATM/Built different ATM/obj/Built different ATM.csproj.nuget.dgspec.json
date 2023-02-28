@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {}
+    "C:\\Users\\David\\OneDrive\\Dokumente\\Unity\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {
+    "C:\\Users\\David\\OneDrive\\Dokumente\\Unity\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
+        "projectUniqueName": "C:\\Users\\David\\OneDrive\\Dokumente\\Unity\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
         "projectName": "Built different ATM",
-        "projectPath": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
-        "packagesPath": "C:\\Users\\BBB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BBB\\Documents\\Schule\\BBB\\Lernathelie\\1301\\Built-different-ATM\\Built different ATM\\Built different ATM\\obj\\",
+        "projectPath": "C:\\Users\\David\\OneDrive\\Dokumente\\Unity\\Built-different-ATM\\Built different ATM\\Built different ATM\\Built different ATM.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\OneDrive\\Dokumente\\Unity\\Built-different-ATM\\Built different ATM\\Built different ATM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BBB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +59,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

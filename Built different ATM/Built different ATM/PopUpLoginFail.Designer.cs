@@ -37,7 +37,7 @@
             this.OKBtn.BackColor = System.Drawing.Color.GhostWhite;
             this.OKBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.OKBtn.Location = new System.Drawing.Point(396, 306);
-            this.OKBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OKBtn.Margin = new System.Windows.Forms.Padding(4);
             this.OKBtn.Name = "OKBtn";
             this.OKBtn.Size = new System.Drawing.Size(118, 65);
             this.OKBtn.TabIndex = 2;
@@ -52,9 +52,9 @@
             this.label1.Location = new System.Drawing.Point(246, 101);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(412, 114);
+            this.label1.Size = new System.Drawing.Size(408, 114);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Falsches Username \r\noder falsches Passwort. \r\nVersuchen Sie es wieder.";
+            this.label1.Text = "Falscher Username \r\noder falsches Passwort. \r\nVersuchen Sie es erneut.";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // PopUpLoginFail
@@ -65,7 +65,7 @@
             this.ClientSize = new System.Drawing.Size(978, 566);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.OKBtn);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PopUpLoginFail";
             this.Text = "PopUpLoginFail";
             this.ResumeLayout(false);
